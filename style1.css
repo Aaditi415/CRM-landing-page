@@ -1,0 +1,361 @@
+/* Responsive Media Queries */
+
+@media (max-width: 1024px) {
+    .feature {
+        padding: 40px 0px;
+    }
+    .feature h2 {
+        font-size: 40px;
+    }
+    .feature p {
+        font-size: 16px;
+    }
+    .cards {
+        gap: 6px;
+    }
+    .feature .card {
+        flex: 1 1 45%;
+    }
+    .about,
+    .about2 {
+        padding: 20px 40px;
+        gap: 40px;
+    }
+    .about h2,
+    .about2 h2 {
+        font-size: 44px;
+    }
+    .about p,
+    .about2 p {
+        font-size: 18px;
+    }
+    .about1,
+    .about3 {
+        padding: 80px 40px;
+        gap: 40px;
+    }
+    .text {
+        padding-left: 0;
+    }
+    .about1 h2,
+    .about3 h2 {
+        font-size: 44px;
+    }
+    .about1 p,
+    .about3 p {
+        font-size: 18px;
+    }
+    .fcard .row.first {
+        grid-template-columns: 1fr;
+    }
+    .fcard .card {
+        padding: 16px;
+    }
+    .fcard .card img {
+        max-height: 160px;
+    }
+    .fcard .card h3 {
+        font-size: 18px;
+    }
+    .fcard .card p {
+        font-size: 15px;
+    }
+    .testimonial-span,
+    .faq-span {
+        padding: 20px 40px;
+    }
+    .testimonial-span h2,
+    .faq-span h2 {
+        font-size: 42px;
+    }
+    .testimonial-span p,
+    .faq-span p {
+        font-size: 18px;
+    }
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        text-align: left;
+    }
+    .footer-links {
+        justify-content: flex-start;
+    }
+    .footer-logo {
+        font-size: 24px;
+    }
+}
+
+
+/*Media Queries 768px  */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 10px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-logo {
+        order: 1;
+        flex: 0 0 auto;
+    }
+    .nav-toggle {
+        display: flex;
+        order: 2;
+        flex: 0 0 auto;
+    }
+    .nav-menu {
+        order: 3;
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+        background: transparent;
+        border: none;
+        border-radius: 25px;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: none;
+    }
+    .nav-menu li {
+        margin: 8px;
+    }
+    .nav-menu.active {
+        display: flex;
+    }
+    .nav-buttons {
+        display: none;
+    }
+    main h1 {
+        font-size: 42px;
+    }
+    main p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .glass-pill {
+        font-size: 14px;
+        padding: 6px 12px;
+        margin: 10px;
+    }
+    .gradient-ball {
+        width: 14px;
+        height: 14px;
+    }
+    .btnColor,
+    .glass-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .moving-logo {
+        font-size: 22px;
+        margin: 0 20px;
+    }
+    .logo-track {
+        padding: 30px 0;
+    }
+    .cards {
+        align-items: center;
+    }
+    .feature .card {
+        flex: 1 1 100%;
+        width: 100%;
+        margin: 10px 25px;
+    }
+    .feature .card img {
+        width: 48px;
+        height: 48px;
+    }
+    .about,
+    .about2 {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+    .text {
+        max-width: 100%;
+    }
+    .about p,
+    .about2 p {
+        font-size: 16px;
+        line-height: 1.6;
+        padding: 4px auto;
+    }
+    .about2 img {
+        height: auto;
+        max-height: 200px;
+    }
+    .btnColor {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .about1,
+    .about3 {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 24px;
+        gap: 30px;
+    }
+    .text {
+        padding-left: 0;
+        max-width: 100%;
+    }
+    .about1 p,
+    .about3 p {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 4px auto;
+    }
+    .testimonial-span,
+    .faq-span {
+        padding: 16px 24px;
+    }
+    .testimonial-span p,
+    .faq-span p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .testimonial-card:nth-last-child(-n+2) {
+        display: none;
+    }
+    .cta-section p {
+        font-size: 16px;
+        margin: 18px 5px;
+    }
+    .footer-top {
+        align-items: center;
+        text-align: center;
+    }
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+    .footer-social {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+    .footer-social a {
+        font-size: 20px;
+    }
+    .footer-bottom {
+        font-size: 0.85rem;
+        padding: 10px 0;
+    }
+    .about h2,
+    .about2 h2,
+    .about1 h2,
+    .about3 h2,
+    .feature h2,
+    .testimonial-span h2,
+    .faq-span h2,
+    .cta-section h2 {
+        font-size: 28px;
+    }
+}
+
+
+/*Media Queries 480px  */
+
+@media (max-width: 480px) {
+    br {
+        display: none;
+    }
+    main h1 {
+        font-size: 38px;
+    }
+    main p {
+        font-size: 16px;
+        padding: 2px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-section {
+        padding: 25px 24px;
+    }
+    .btnColor,
+    .glass-button {
+        width: 100%;
+        max-width: 300px;
+        margin: 8px 0;
+    }
+    .moving-logo {
+        font-size: 18px;
+        margin: 0 14px;
+    }
+    .logo-track {
+        padding: 24px 0;
+    }
+    .feature p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    .feature .card h3 {
+        font-size: 20px;
+    }
+    .feature .card p {
+        font-size: 14px;
+    }
+    .feature .card img {
+        width: 40px;
+        height: 40px;
+    }
+    .about p,
+    .about2 p {
+        font-size: 14px;
+    }
+    .glass-pill {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .gradient-ball {
+        width: 12px;
+        height: 12px;
+    }
+    .about1,
+    .about3 {
+        padding: 40px 16px;
+    }
+    .about1 p,
+    .about3 p {
+        font-size: 14px;
+    }
+    .text {
+        padding-left: 0;
+        order: 2;
+    }
+    .image {
+        order: 1 !important;
+    }
+    .testimonial-span p {
+        font-size: 15px;
+    }
+    .testimonial-section {
+        padding: 30px 0;
+    }
+    .footer {
+        padding: 30px 10px 15px;
+    }
+    .footer-logo {
+        font-size: 22px;
+    }
+    .footer-links a {
+        font-size: 15px;
+    }
+    .footer-bottom {
+        font-size: 0.8rem;
+    }
+    .about h2,
+    .about2 h2,
+    .about1 h2,
+    .about3 h2,
+    .feature h2,
+    .testimonial-span h2 {
+        font-size: 28px;
+    }
+}
