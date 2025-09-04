@@ -135,6 +135,10 @@
         font-size: 18px;
         line-height: 1.5;
     }
+     .hero-img img {
+        margin: 32px auto;
+        width: 75%;
+    }
     .glass-pill {
         font-size: 14px;
         padding: 6px 12px;
@@ -261,6 +265,10 @@
 /*Media Queries 480px  */
 
 @media (max-width: 480px) {
+    .hero-img img {
+        margin: 32px auto;
+        width: 75%;
+    }
     br {
         display: none;
     }

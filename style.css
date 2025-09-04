@@ -281,7 +281,7 @@ main p {
 
 .hero-img img {
     margin: 32px auto;
-    width: 75%;
+    width: 70vw;
 }
 
 .hero-section {
@@ -372,6 +372,9 @@ main p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
     gap: 24px;
 }
 
@@ -422,15 +425,19 @@ main p {
 /* About Start */
 
 .about {
-    display: flex;
-    background: linear-gradient(to right top, #000, #080813, #1a1f46);
-    text-align: left;
-    align-items: center;
-    padding: 0;
-    gap: 60px;
-    flex-wrap: wrap;
+  background: linear-gradient(to right top, #000, #080813, #1a1f46);
 }
 
+.aboutinner{
+    max-width: 1660px;         
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;        
+    gap: 60px;
+    padding: 40px 20px;
+
+}
 .about img {
     width: 100%;
     max-width: 800px;
@@ -440,6 +447,7 @@ main p {
 .text {
     max-width: 600px;
     color: #ffffff;
+    text-align: left;
 }
 
 .about h2 {
@@ -497,20 +505,23 @@ main p {
 }
 
 .about2 {
-    display: flex;
-    background: linear-gradient(to left top, #1a1f46, #0c0c17, #000000);
-    text-align: left;
-    align-items: center;
-    padding: 64px 0px 64px 200px;
-    gap: 40px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: left;
+  background: linear-gradient(to left top, #1a1f46, #0c0c17, #000000);
+}
+.aboutinner1{
+ display: flex;
+  flex-wrap: wrap;                     
+  align-items: center;                 
+  justify-content: center;             
+  gap: 60px;                          
+  max-width: 1600px;                  
+  margin: 0 auto;                      
+  padding: 64px 220px;                 
+  text-align: left;
 }
 
 .about2 img {
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     height: auto;
 }
 
